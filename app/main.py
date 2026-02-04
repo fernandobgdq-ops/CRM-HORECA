@@ -10,6 +10,11 @@ import time
 import io
 import config
 import utils
+
+# Compatibilidad con versiones antiguas de Streamlit
+if not hasattr(st, "dialog") and hasattr(st, "experimental_dialog"):
+    st.dialog = st.experimental_dialog
+
 import modulo_clientes_nuevo as mod_clientes
 
 try:
