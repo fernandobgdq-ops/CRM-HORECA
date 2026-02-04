@@ -1,0 +1,26 @@
+# REQUIREMENTS.TXT - Dependencias del proyecto
+
+# Framework web
+streamlit==1.31.0
+
+# Manejo de datos
+pandas==2.2.0
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Visualización
+plotly==5.18.0
+matplotlib==3.8.2
+folium==0.14.0
+streamlit-folium==0.6.5
+
+# Geolocalización
+geopy==2.4.0
+
+# Utilidades
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Para sincronización con OneDrive (Microsoft Graph)
+msal==1.27.0
+requests==2.31.0

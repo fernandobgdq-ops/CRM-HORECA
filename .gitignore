@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Secrets/credenciales
+.env
+onedrive_token_cache.bin
+
+# Datos locales (Excel/CSV)
+datos/
+*.xlsx
+*.xls
+*.csv
+
+# Archivos grandes
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
